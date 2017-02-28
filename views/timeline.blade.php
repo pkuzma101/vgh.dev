@@ -1,6 +1,7 @@
 @extends('master')
 <title>Timeline</title>
 <link rel="stylesheet" href="css/timeline.css" type="text/css">
+@section('content')
 <section id="timeline_box">
     <div id="timeline_div">
       <ul id="gen_line"></ul>
@@ -43,3 +44,4 @@
     // 
   });
 </script>
+@endsection
